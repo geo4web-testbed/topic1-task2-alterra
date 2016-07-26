@@ -1,0 +1,493 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "type" : "Feature",
+    "id" : "_A2F312CFC1DCF4CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.45064799354771, 51.350384951556066 ], [ 5.450610626258362, 51.3503830303884 ], [ 5.450616208491028, 51.350340591578565 ], [ 5.450653575758411, 51.3503425217331 ], [ 5.45064799354771, 51.350384951556066 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.36eb3e3d405740e3b0b1778b00062344",
+      "tijdstipRegistratie" : "2014-01-14T07:52:13",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000012841"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7F89A4CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.434705998043969, 51.347129550814415 ], [ 5.434602268818411, 51.34710479332345 ], [ 5.434635970302938, 51.347049373064294 ], [ 5.434739713717999, 51.34707407658718 ], [ 5.434705998043969, 51.347129550814415 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.ee3e0c1538db40f2b85c2532c3aa916e",
+      "tijdstipRegistratie" : "2014-01-14T07:52:12",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000008489"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FA134CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.455477413207769, 51.35066993464018 ], [ 5.4554331525055275, 51.35067573139348 ], [ 5.455413672229507, 51.35061740601117 ], [ 5.455457832005786, 51.35061134865144 ], [ 5.455477413207769, 51.35066993464018 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.63caa0d162cb48cc81d024f694b9e9b5",
+      "tijdstipRegistratie" : "2014-01-14T07:52:14",
+      "eindRegistratie" : "2015-07-13T10:23:16",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000021987"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FA1B4CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.454334835755385, 51.351020953727435 ], [ 5.454282139084746, 51.351030179619535 ], [ 5.454259945421313, 51.35098046680907 ], [ 5.454313488749623, 51.35097109661851 ], [ 5.454334835755385, 51.351020953727435 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.6da163199ec0470594612244664f8fa7",
+      "tijdstipRegistratie" : "2014-01-14T07:52:14",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000014354"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7E6D84CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.457184806136949, 51.34772059949359 ], [ 5.457209684890974, 51.34772317326336 ], [ 5.457224980898983, 51.347776017752786 ], [ 5.457171634352542, 51.34777049484868 ], [ 5.457184806136949, 51.34772059949359 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.07cea01076174c4f91111ef2034cef36",
+      "tijdstipRegistratie" : "2014-01-14T07:52:14",
+      "LV-publicatiedatum" : "2014-08-10T16:22:23",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000015390"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7EFC84CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.453138500136252, 51.34214811280481 ], [ 5.453108568983864, 51.34216275444469 ], [ 5.453082892478077, 51.34214218482002 ], [ 5.453112823612229, 51.34212753419798 ], [ 5.453138500136252, 51.34214811280481 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.be8995c7ec55434082f598249ca5a0f0",
+      "tijdstipRegistratie" : "2014-01-14T07:52:10",
+      "LV-publicatiedatum" : "2014-08-10T16:22:23",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000002271"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7F00C4CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.45378052694957, 51.344602136543465 ], [ 5.4537152658217884, 51.34459248406911 ], [ 5.453722543082492, 51.34457314515331 ], [ 5.453698856155329, 51.344569644118366 ], [ 5.453691650517083, 51.34458889310442 ], [ 5.453643158396129, 51.344582745585555 ], [ 5.453659657543509, 51.34453900599752 ], [ 5.453686722360531, 51.344467251491345 ], [ 5.453735172842227, 51.34447445069687 ], [ 5.453731569888124, 51.3444839718209 ], [ 5.453820245099952, 51.34449715242372 ], [ 5.45378052694957, 51.344602136543465 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.c3e05788d46c46e5befa832fc91069ef",
+      "tijdstipRegistratie" : "2014-01-14T07:52:14",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T16:22:23",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000013726"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7F9F54CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.445377900234033, 51.35233828963113 ], [ 5.445323098634606, 51.35233174630427 ], [ 5.445331575674684, 51.352303921967675 ], [ 5.445386377241944, 51.352310465290536 ], [ 5.445377900234033, 51.35233828963113 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.b8a4988faa134894b539a0dfd471fd9a",
+      "tijdstipRegistratie" : "2014-01-14T07:52:09",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000001640"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7F9F94CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.434419035794195, 51.35422104169503 ], [ 5.434300211888916, 51.35420502711345 ], [ 5.434307811709185, 51.35418277694646 ], [ 5.434319590719128, 51.354148309411485 ], [ 5.434335498959245, 51.35415044227 ], [ 5.4343444583844756, 51.35412418257912 ], [ 5.434426727494021, 51.35413519628354 ], [ 5.434417753758304, 51.35416145598659 ], [ 5.434438443092291, 51.354164225085775 ], [ 5.434419035794195, 51.35422104169503 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.71b305b97a594e36a55441f1e65a6eb8",
+      "tijdstipRegistratie" : "2014-01-14T07:52:12",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000008675"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FA074CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.4309291806987625, 51.3469628110416 ], [ 5.430805506345848, 51.34695680816104 ], [ 5.430810206517213, 51.346918775104854 ], [ 5.430774780795826, 51.34691705358676 ], [ 5.430777914341792, 51.34689178510774 ], [ 5.430813340035086, 51.34689349763615 ], [ 5.430865473794472, 51.34689601285421 ], [ 5.430937014200375, 51.346899482530965 ], [ 5.4309291806987625, 51.3469628110416 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.6c899d88f3db44ddbae9dbc83f763ea3",
+      "tijdstipRegistratie" : "2014-01-14T07:52:11",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000006542"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FA0D4CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.446758680569542, 51.352983178026136 ], [ 5.446784223368821, 51.352920989939555 ], [ 5.446876776775561, 51.352935899673284 ], [ 5.446869121143048, 51.35295454621464 ], [ 5.446851234082192, 51.35299807879136 ], [ 5.446758680569542, 51.352983178026136 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.72bf592697ec49bdbeb35a48a42755a0",
+      "tijdstipRegistratie" : "2014-01-14T07:52:09",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000001874"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FA1D4CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.456139051985921, 51.35398818062928 ], [ 5.456176582705487, 51.354001129089966 ], [ 5.456139838152986, 51.35404287653821 ], [ 5.456098170829104, 51.354028492322236 ], [ 5.45608366786405, 51.35404495926849 ], [ 5.456043365055432, 51.35403105062654 ], [ 5.456057882331848, 51.35401454772191 ], [ 5.455996464538916, 51.35399248082187 ], [ 5.456046912746771, 51.35393726019669 ], [ 5.456031113227089, 51.35393169654603 ], [ 5.456067660642781, 51.35389248406835 ], [ 5.456129853956266, 51.35391482912142 ], [ 5.456187235596002, 51.35393544217372 ], [ 5.456139051985921, 51.35398818062928 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.72fb8ad21bef43dc8e840d6d32a125c0",
+      "tijdstipRegistratie" : "2014-01-14T07:52:14",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000014922"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FA214CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.438008649272702, 51.35398789623212 ], [ 5.438012976284695, 51.35401898632508 ], [ 5.437994473279716, 51.354020189919034 ], [ 5.437937005565026, 51.35399235000413 ], [ 5.437888917722587, 51.3539953462692 ], [ 5.437890349000939, 51.35400439728658 ], [ 5.437808312529775, 51.3540094937143 ], [ 5.437795143779264, 51.35392776501169 ], [ 5.437831202397697, 51.353925484139225 ], [ 5.43782748744596, 51.35390248362159 ], [ 5.437963252635931, 51.353893894061464 ], [ 5.437971941363842, 51.353948640563345 ], [ 5.43801199060323, 51.3539461511497 ], [ 5.438018525220701, 51.353987280678055 ], [ 5.438008649272702, 51.35398789623212 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.b78075b776b74cee8adb22d51d872cba",
+      "tijdstipRegistratie" : "2014-02-20T12:14:53",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000009607"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FA2F4CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.4305092696199, 51.34686877565641 ], [ 5.430466836549686, 51.3468639285835 ], [ 5.430346126429954, 51.34685029268371 ], [ 5.430362421116682, 51.34679360373265 ], [ 5.430484839306591, 51.34680741875299 ], [ 5.430474953796317, 51.3468417413868 ], [ 5.430515577874545, 51.34684611272957 ], [ 5.4305092696199, 51.34686877565641 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.73e608667c2a43bcb734c91cfa8b03b0",
+      "tijdstipRegistratie" : "2014-01-14T07:52:11",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000006566"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FA394CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.444473160173122, 51.353938048511615 ], [ 5.444421343607298, 51.3539321954205 ], [ 5.444435139412959, 51.353886588840766 ], [ 5.4443988007815625, 51.35388280450807 ], [ 5.444405573322494, 51.353857336125486 ], [ 5.444493671373013, 51.353867270194016 ], [ 5.444487098918919, 51.35389199241918 ], [ 5.444473160173122, 51.353938048511615 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.6559515375a641dca804e8d37b7127c2",
+      "tijdstipRegistratie" : "2014-01-14T07:52:13",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000010639"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FA4B4CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.436255936856581, 51.35311106301812 ], [ 5.436217707978799, 51.35311039601887 ], [ 5.436219268937341, 51.35308022921107 ], [ 5.436257282450981, 51.35308088731213 ], [ 5.436255936856581, 51.35311106301812 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.f7013abd25c3486d9b4afe7dd5c6e03b",
+      "tijdstipRegistratie" : "2014-01-14T07:52:12",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000009143"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FE044CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.444556660386823, 51.35220035255043 ], [ 5.444487043566471, 51.35219290828284 ], [ 5.444493687924553, 51.3521684826479 ], [ 5.444563319063755, 51.35217592690444 ], [ 5.444556660386823, 51.35220035255043 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.899d3718225f4366bc554727429e30fe",
+      "tijdstipRegistratie" : "2014-01-14T07:52:13",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000010529"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FE144CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.444155430788311, 51.35257362686083 ], [ 5.444060085028945, 51.35256294103164 ], [ 5.4440783798886665, 51.35249911214927 ], [ 5.444173711197707, 51.35250982493672 ], [ 5.444155430788311, 51.35257362686083 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.7b774fa32e5d44f389d3df67d7904928",
+      "tijdstipRegistratie" : "2014-01-14T07:52:13",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000010515"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7F1F04CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.458896765212146, 51.348654194729704 ], [ 5.458875644534452, 51.34860467988123 ], [ 5.458917907520198, 51.348598829118686 ], [ 5.458938095733607, 51.34864865914038 ], [ 5.458896765212146, 51.348654194729704 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.ea0888443b95444fbec15b2de6fdf6dc",
+      "tijdstipRegistratie" : "2014-01-14T07:52:15",
+      "LV-publicatiedatum" : "2014-08-10T16:22:23",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000015974"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FE1E4CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.432333219096556, 51.35278922196862 ], [ 5.4322470336200706, 51.35277787572306 ], [ 5.432256881568939, 51.352749161925495 ], [ 5.43234242116204, 51.35276066122317 ], [ 5.432333219096556, 51.35278922196862 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.89fc0724eec841c789a5fbe345c4e22e",
+      "tijdstipRegistratie" : "2014-01-14T07:52:12",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000007306"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FE064CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.443254993446515, 51.355165198608674 ], [ 5.443251262277674, 51.35517798236996 ], [ 5.443125629699553, 51.35516330141493 ], [ 5.443128846627594, 51.35515258531102 ], [ 5.443136910353548, 51.35512569616459 ], [ 5.443170149077953, 51.35512955429423 ], [ 5.443262155033694, 51.355140224486355 ], [ 5.443259596618732, 51.35514940320495 ], [ 5.443254993446515, 51.355165198608674 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.89c80d8d7277411cb14d985faa706e28",
+      "tijdstipRegistratie" : "2014-01-14T07:52:13",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000010116"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FE264CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.447342410583049, 51.34961384110139 ], [ 5.447342339607078, 51.34961444338262 ], [ 5.447276205949717, 51.34961152030688 ], [ 5.447278731434411, 51.349589101124366 ], [ 5.447344865059478, 51.3495920241987 ], [ 5.447342410583049, 51.34961384110139 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.88a39bb9e7c34fcb876bbecc7e866a6f",
+      "tijdstipRegistratie" : "2014-01-14T07:52:13",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000011629"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7FE284CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.447743037675505, 51.34917196310538 ], [ 5.44761763293053, 51.349166185713 ], [ 5.447619151613718, 51.34915321419481 ], [ 5.447624417527862, 51.34910839367939 ], [ 5.447749822115053, 51.34911417106446 ], [ 5.447743037675505, 51.34917196310538 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.88d5cb60605e4ea4a3e7eb07ae194e26",
+      "tijdstipRegistratie" : "2014-01-14T07:52:13",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T18:27:21",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000011577"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7E7F04CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.455793713771863, 51.342056346992656 ], [ 5.4557162612388135, 51.34206874319454 ], [ 5.455705745791666, 51.34204305062181 ], [ 5.455783356207992, 51.3420306902886 ], [ 5.455793713771863, 51.342056346992656 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "objectEindTijd" : "2015-10-27",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.24c9d2ee626c4e2ebb03a539260b6b94",
+      "tijdstipRegistratie" : "2014-03-13T14:16:15",
+      "eindRegistratie" : "2015-10-27T08:58:53",
+      "LV-publicatiedatum" : "2014-08-10T16:22:23",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000023929"
+    }
+  }, {
+    "type" : "Feature",
+    "id" : "_A2F312CF7EF104CE6E0532B0B5B0AD9B0",
+    "geometry" : {
+      "type" : "MultiPolygon",
+      "coordinates" : [ [ [ [ 5.454040666794647, 51.34317214148125 ], [ 5.453990647267439, 51.343131469285694 ], [ 5.4540839276959, 51.34308645402261 ], [ 5.454134263360538, 51.34312736869174 ], [ 5.454040666794647, 51.34317214148125 ] ] ] ]
+    },
+    "properties" : {
+      "objectBeginTijd" : "2014-01-14",
+      "identificatie.namespace" : "NL.IMGeo",
+      "identificatie.lokaalID" : "G0858.b2ed86c3f92a4845afe9f0b3ed85f63c",
+      "tijdstipRegistratie" : "2014-01-14T07:52:14",
+      "eindRegistratie" : "2015-06-25T08:11:58",
+      "LV-publicatiedatum" : "2014-08-10T16:22:23",
+      "bronhouder" : "G0858",
+      "relatieveHoogteligging" : 0,
+      "bgt-status" : "bestaand",
+      "plus-status" : "geenWaarde",
+      "identificatieBAGPND" : "0858100000014211"
+    }
+  } ]
+}

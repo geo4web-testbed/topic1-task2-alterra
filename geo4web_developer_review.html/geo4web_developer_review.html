@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>geo4web</title>
+  <meta name="Author" content="Rob Knapen">
+  <meta name="CreationTime" content="2016-07-26T10:06:54Z">
+  <meta name="ModificationTime" content="2016-07-26T10:06:54Z">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.47">
+  <style type="text/css">a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; min-height: 15.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 36.0px; text-indent: -36.0px; font: 12.0px 'Times New Roman'; -webkit-text-stroke: #000000; min-height: 15.0px}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Times New Roman'}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; color: #042eee; -webkit-text-stroke: #042eee; min-height: 15.0px}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; -webkit-text-stroke: #042eee}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; -webkit-text-stroke: #042eee; min-height: 15.0px}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Times New Roman'; color: #042eee; -webkit-text-stroke: #042eee}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; color: #000000; -webkit-text-stroke: #000000}
+    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; color: #000000; min-height: 15.0px}
+    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'}
+    span.s1 {font: 12.0px Helvetica}
+    span.s2 {text-decoration: underline}
+    span.s3 {font-kerning: none; -webkit-text-stroke: 0px #000000}
+    span.s4 {font-kerning: none}
+    span.s5 {font-kerning: none; color: #042eee; -webkit-text-stroke: 0px #042eee}
+    span.s6 {text-decoration: underline ; font-kerning: none; color: #042eee; -webkit-text-stroke: 0px #042eee}
+    span.s7 {text-decoration: underline ; font-kerning: none}
+    ol.ol1 {list-style-type: decimal}
+    ul.ul1 {list-style-type: hyphen}
+  </style>
+</head>
+<body>
+<div style="width: 600px; margin: 0 auto">
+
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc1"></a>Chapter 1</b></h1>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b>Geo4Web</b></h3>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; min-height: 15.0px"><br></h3>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc2"></a>Introduction</b></h2>
+<p class="p2">Geonovum has been working for years towards the realisation and success of the public sector spatial data infrastructure (SDI) in the Netherlands. Geographical data is now available using Open Geospatial Consortium (OGC) standards like [WCS], [WMS], and [WFS]. At the moment most geographical data is published as WMS what can be seen as a spatial picture, and not as data.</p>
+<p class="p3"><br></p>
+<p class="p2">From the outside of the geospatial domain, the OGC standard is complex, because the data is published behind specialised web services and not readily available for the majority of web developers [Taylor and Parsons 2015].</p>
+<p class="p3"><br></p>
+<p class="p2">Developers from outside the geospatial domain are increasingly making use of, and creating, geospatial data, and are therefore seen by Geonovum as an important new target group to disseminate geospatial data to the SDI. The question is how the current SDI can be leveraged and how the majority of web developers can be reached. Geonovum sees the web as an important dissemination channel and wants <span class="s2">geospatial data to be accessible to web developers with no specific geospatial expertise</span>. This testbed should therefore explore and explain possibilities of making spatial data a useful, integral and common part of the web. It should help provide some of the answers the Spatial Data on the Web standards working group is searching for.<span class="Apple-converted-space"> </span></p>
+<p class="p3"><br></p>
+<p class="p2">The testbed has four research topics:<span class="Apple-converted-space"> </span></p>
+<ul class="ul1">
+  <li class="li2">Research topic #1: Modern ways of spatial data publication<span class="Apple-converted-space"> </span></li>
+  <li class="li2">Research topic #2: A usable spatial data publication platform<span class="Apple-converted-space"> </span></li>
+  <li class="li2">Research topic #3: Crawlable spatial data using the ecosystem of the Web and Linked Data<span class="Apple-converted-space"> </span></li>
+  <li class="li2">Research topic #4: Spatial data on the web using the current SDI<span class="Apple-converted-space"> </span></li>
+</ul>
+<p class="p3"><br></p>
+<p class="p2">In a previous tender research topics #2 and #3 were carried out which led to a series of lessons learned. In this research we focus on research topic #1: Modern ways of spatial data publication and in particular on task 2.</p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc3"></a>Assignment</b></h2>
+<p class="p2">The question for research topic #1 (Modern ways of spatial data publication) is: How do these lessons learned meet the constraints (e.g. budgets) and capabilities (e.g. in-house know-how) of governmental organisations on the one hand, and of data users on the other?</p>
+<p class="p3"><br></p>
+<p class="p2">In task 2 of topic 1 this question will be answered from the perspective of the <span class="s2">data user</span>. Data users are in fact everyone who wants to use digital information on the World Wide Web for websites, apps and so on. This includes the geo-information professionals, but not what is typically called the "end users", the people who visit the web sites and use the apps that make use of the spatial data.</p>
+<p class="p3"><br></p>
+<p class="p2">Task 2 specifically focusses on spatial application builders. Within the task a use case is to be implemented in a web application, using the data described in paragraph 3.3 and 3.4 of the tender. In addition other data that is published on the web may be used. The use case must also enact a part of the environmental law use case. In this was it simulates the new environmental act in a small setting.</p>
+<p class="p3"><br></p>
+<p class="p2">The task is to:</p>
+<ol class="ol1">
+  <li class="li2">Create a working application, using the data as described in paragraph 3.3 and 3.4 of the tender. This application has been described in our proposal.</li>
+  <li class="li2">Report on our findings: are the data findable, usable, and programmable?</li>
+  <li class="li2">Evaluate wether the information in the Lessons Learned help us to work with the data. For this the same questions should be answered as will be answered by the data publishers:
+  <ul class="ul1">
+    <li class="li2">Evaluate the usability of the lessons learned. How useful is the lessons learned as documentation? Are the contents understandable, the examples workable and the form of documentation useful?</li>
+    <li class="li2">Report any errors found in the lessons learned.</li>
+    <li class="li2">Identify any gaps in the lessons learned, i.e. aspects of spatial data publishing on the web about which guidance is needed, but missing in the lessons learned.</li>
+    <li class="li2">Identify any bad advice in the lessons learned. Are any parts of the lessons learned arguably not good practice at all?</li>
+    <li class="li2">Give suggestions, preferably as text proposals, for the improvement of the lessons learned in areas mentioned in the items above.</li>
+  </ul></li>
+</ol>
+<p class="p3"><br></p>
+<p class="p2">The task has the following deliverables:</p>
+<ol class="ol1">
+  <li class="li2">A working application published on the WWW.</li>
+  <li class="li2">A report describing what was done and containing the findings and answers to the questions above regarding the lessons learned.<span class="s3"><br>
+</span></li>
+</ol>
+<p class="p4"><span class="s4"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc4"></a>Approach</b></h2>
+<p class="p2">The first part of the task is to create a working application that enacts at least partly the new Environmental and Planning Act, using data on cultural heritage, topography and land use data. In the 'rapport informatiehuis cultureel erfgoed' use cases are described. For this project we selected the use case of Victor (p.12), a volunteer who wants to protect the 'veen-weide landschap' and historical farmhouses in his town from housing development.</p>
+<p class="p3"><span class="Apple-converted-space"> </span></p>
+<p class="p2">In the use case Victor collects a lot of information about the area he lives in, so based on a certain location. He wants to use this information to be sure that the decision making is following the ideas of the community he represents (the 'Boerderijenstichting'). The application we want to create will support Victor in finding the right information.<span class="Apple-converted-space"> </span></p>
+<p class="p3"><br></p>
+<p class="p2">In our working application the use case will be slightly different because the application will be built for Valkenswaard (since testbed data is available specific for this region).</p>
+<p class="p3"><br></p>
+<p class="p2">Victor, however, is the end user of the application, and not the main focus. Therefore we will look at the task from the perspective of Bob, one of Victor's friends who happens to be a web developer. Furthermore we will assume that he only has a general idea of (spatial) maps on the web and no hands-on experience with developing them. Same for the equally complicated world of Linked Data on the web.</p>
+<p class="p3"><br></p>
+<p class="p2">Within the testbed several data sources for the use case are delivered according to the formats shown in this figure:<span class="Apple-converted-space"> </span></p>
+<p class="p5"><img src="Images/geo4web data sources.png" width="456" height="203" alt="Image"></p>
+<p class="p2">We will have Bob try to find and use this data in a web application, both as a thought experiment and by really writing the source code. Not all these data services might be targeting a geo-layman like Bob but looking at them from his perspective should be helpful when later evaluating the Lessons Learned from the testbed as the second part of the task.<span class="Apple-converted-space"> </span></p>
+<p class="p3"><br></p>
+<hr>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc5"></a>Chapter 2</b></h1>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b>Results</b></h3>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; min-height: 15.0px"><br></h3>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc6"></a>Chapter 3</b></h1>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b>Deliverable 1 - The Application</b></h3>
+<p class="p3"><br></p>
+<p class="p2">For the first deliverable, a working application on the World Wide Web, we will follow Bob as he tries to build a web application for Victor. Bob is our persona for a web developer and Victor the persona for the end user. We assume that our web developer has no practical experience with dealing with maps and using geo-information in a web application. The same goes for Linked Data. We will use this layman's perspective to look at the testbed data services and all things that Bob runs into by following along as he develops the application. The first part of the result will be the source code for the application, which should be regarded as outcome of a first development iteration with many more to follow to add features. The second part of the result is a narrative about Bob's experiences, which we will use to reflect upon the Lessons Learned for deliverable two.</p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc7"></a>Chapter 4</b></h1>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b>Use Case</b></h3>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; min-height: 15.0px"><br></h3>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc8"></a>End User Context</b></h2>
+<p class="p2"><b>Meet Victor</b></p>
+<p class="p2">Victor van Beers is born and raised in Valkenswaard, a province town in Noord-Brabant. When he was 10 he gave a presentation at school about Castles with the castle "Loon" in Waalre as an example. The castle<span class="Apple-converted-space">  </span>Since then he is interested in the cultural history of his town. Now he is an enthusiastic volunteer for a foundation that ins committed to preserve historical farms and the corresponding landscapes.</p>
+<p class="p3"><span class="Apple-converted-space"> </span></p>
+<p class="p2">In the neighbouring town Waalre stands a castle, which land covered the present towns of Waalre and Valkenswaard until 1795.<span class="Apple-converted-space">  </span>Because of the low location in the landscape it was not possible to develop as a castle-village. Near the castle there were tree historical farms that influenced the landscape. Also the Dommel valley is of importance of the historical landscape.<span class="Apple-converted-space"> </span></p>
+<p class="p3"><br></p>
+<p class="p2">Victor likes to walk and o ride his bike in the surrounding areas and two times a year he organises excursions to teach about the historical landscape and monuments in town.<span class="Apple-converted-space"> </span></p>
+<p class="p3"><br></p>
+<p class="p2"><b>Motive</b></p>
+<p class="p2">Victor read in the local newspaper that there is an initiative to build a new housing estate. This planned estate is threatening to fragment the historical landscape he loves. He understands the urgency of the housing estate in order to preserve other local amenities as the primary school and supermarket.<span class="Apple-converted-space"> </span></p>
+<p class="p3"><br></p>
+<p class="p2">Victor wants to protest against the new housing estate in favour of the landscape. However when he does so, he needs to come with a <span class="s2">reasonable alternative</span>. He makes a phone call to the civil servant to get more information. He wants to hear how far the planning process is and what he can do to protest. The civil servant points him to the municipality website where he can see which steps are already taken.<span class="Apple-converted-space"> </span></p>
+<p class="p3"><br></p>
+<p class="p2">Victor visits the website but finds out that it looks nice but is hardly helpful to his quest. He searches for the information he wants on 'bouwplannen' but as it turns out he has to make an appointment with the municipality office to have a look at them and there might be costs involved.</p>
+<p class="p3"><br></p>
+<p class="p2"><b>Some Friendly Help</b></p>
+<p class="p2">As things happen Victor bumps into his friend Bob at a party and shares his story. Bob decides that he wants to build something in his spare time that helps Victor, and perhaps other people with similar goals.</p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc9"></a>Developer Context</b></h2>
+<p class="p2"><b>Meet Bob</b></p>
+<p class="p2">Bob, who is a web developer, has seen lots of websites that manage to show interesting information on maps, making things more insightful. And he has read many interesting articles about Open Data. Besides, Bob is also a little bit of a revolutionist, a fan of WikiLeaks, and thinks all government data should be freely accessible. He likes to be a little bit disruptive in that regard.</p>
+<p class="p3"><br></p>
+<p class="p2">As a web developer Bob spends most of his work time developing applications for the World Wide Web. Usually he works in small teams or on his own so his is very interdisciplinary and able to cover all tiers (client, server, and database) of modern web applications. On the other hand he has none or only very little experience with working with spatial data, maps, and Linked Data. So he has some research to do.</p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc10"></a>Exploring</b></h2>
+<p class="p2">Looking for inspiration Bob fires up his favourite browser, Firefox, and searches for 'kaart Valkenswaard'. Top of the list he sees a Google Maps map of Valkenswaard, which is promising. Next he searches for 'bouwplannen Valkenswaard'. Now he has to scroll a little further in the results where he finds the website <a href="http://www.ruimtelijkeplannenvalkenswaard.nl">www.ruimtelijkeplannenvalkenswaard.nl</a>, which contains a link to the website: <a href="http://www.ruimtelijkeplannen.nl/web-roo/roo/bestemmingsplannen?woonplaats=Valkenswaard"><span class="s5">http://www.ruimtelijkeplannen.nl/web-roo/roo/bestemmingsplannen?woonplaats=Valkenswaard</span></a><span class="s6"><b>.</b></span></p>
+<p class="p6"><span class="s7"><b></b></span><br></p>
+<p class="p7"><span class="s4">Bob is impressed by this website and how much information is available through. However he also finds it overwhelming and thinks it targets more expert users than he and Victor are.</span></p>
+<p class="p8"><span class="s4"></span><br></p>
+<p class="p6"><span class="s7"><b></b></span><br></p>
+<p class="p9"><span class="s7"><b><img src="Images/Screen Shot 2016-07-21 at 13.43.19.png" width="600" height="460" alt="Image"></b></span></p>
+<p class="p8"><br></p>
+<p class="p7">By now Bob is fascinated by the idea of displaying government data as simple as possible on a map. His next step is to visit <a href="http://data.overheid.nl">data.overheid.nl</a> to see what is available there. He soon finds out that for spatial (geo) data they refer to another website, <a href="http://www.nationaalgeoregister.nl/">www.nationaalgeoregister.nl/</a>. 'This sure looks promising' he thinks to himself. Plenty of interesting geo-data and they even have a tab on the webpage 'for developers'. Here he reads about WMS, WFS, Leaflet, OpenLayers, and so on, which all seems rather complicated. Going back and reading the 'About NGR' web page it becomes clear to Bob that they target Geo-ICT specialists, among others, that want to build a website or application that uses geo-information. He thinks he can get it to work with some study of all these geo standards but still has hopes there is a much easier way with quicker results. Although he has been putting quite some spare time into it already.</p>
+<p class="p8"><br></p>
+<p class="p7">Somewhere on the NGR website Bob stumbled across a link to a WIKI from Geonovum. Interested he looks them up on the Internet, at <a href="http://www.geonovum.nl/">http://www.geonovum.nl/</a> and finds out that their goal is to make governmental geo-information more accessible. 'Exactly what I need', he says to himself. He also wishes they would just offer a 'for developers' link, or have a <a href="http://developer.geonovum.nl">developer.geonovum.nl</a> website like so many other organisations, to make things easier. He finds something about a geo4web testbed that he might want to give a try, but first he likes to get started building with what he has learned so far.</p>
+<p class="p8"><br></p>
+<p class="p8"><br></p>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc11"></a>Chapter 5</b></h1>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b>Building</b></h3>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; min-height: 15.0px"><br></h3>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc12"></a>Getting Started</b></h2>
+<p class="p2">Bob decides to use Netbeans as IDE for building the application, and to set it up as a Node.JS project. He also plans to use the Leaflet and D3 Javascript libraries for working with geo-information.</p>
+<p class="p3"><br></p>
+<p class="p2">Versions he uses are:</p>
+<ul class="ul1">
+  <li class="li2">Netbeans: 8.1</li>
+  <li class="li2">Node.js: 4.4.7</li>
+  <li class="li2">Google Chrome: 52.0.x
+  <ul class="ul1">
+    <li class="li2">Netbeans Connector extension</li>
+  </ul></li>
+</ul>
+<p class="p3"><br></p>
+<p class="p2">Quickly Bob has an empty project created. Now for some maps!</p>
+<p class="p3"><br></p>
+<p class="p2">He adds:</p>
+<ul class="ul1">
+  <li class="li2">Leaflet.js: 0.7.7</li>
+</ul>
+<p class="p3"><br></p>
+<p class="p2">And start following the Quick Getting Started webpage.<span class="Apple-converted-space">  </span>For this tutorial he needs a Mapbox API key, which is free, so he creates one (making a mental note to look into Mapbox later). It takes some tinkering but pretty soon Bob has the first result, a (Open Street) map of Valkenswaard!</p>
+<p class="p3"><br></p>
+<p class="p2"><img src="Images/Screen Shot 2016-07-21 at 16.57.13.png" width="399" height="525" alt="Image"></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc13"></a>Using PDOK</b></h2>
+<p class="p2">Bob decides to now have a look at this PDOK data he came across while exploring the options. He tries <a href="http://developer.pdok.nl">developer.pdok.nl</a> but no such website exists. Searching for 'developer' on the <a href="http://www.pdok.nl">www.pdok.nl</a> website also finds nothing. He starts browsing the website and notices something about data services in the product section. It says that data services can be used by copying and pasting an URL, which sounds easy enough! However unfortunately none of these URLs match what Leaflet expects. They are all WMS, WFS, WMTS, WCS, etc. So looks like he needs a way to use those with Leaflet. Fortunately on the Leaflet website he finds a whole explanation about how to use WMS in Leaflet.</p>
+<p class="p3"><br></p>
+<p class="p2">Seems that to figure out which 'layers' are available in a WMS data service he needs to use another application called QGIS, so he sets out to install it ...</p>
+<p class="p3"><br></p>
+<p class="p2">With QGIS 2.14.3 installed Bob is slowly starting to feel lost in all the GIS terminology. He manages to set up a connection to the TOP10NL WMS, which looks interesting, but QGIS shows that there are things in it called 'functioneelgebied_vlak_label', 'inrichtingselement_lijn', 'terrein_vlak', and so on. While Bob is looking for a simple map. He tries opening 'terrein_vlak', but QGIS runs into network problems and crashes, leaving Bob feeling disappointed.</p>
+<p class="p3"><br></p>
+<p class="p2">The next day Bob decides to have another look at the PDOK website thinking that maybe there are other options. But the only thing that comes close that what he wants is the 'PDOK Kaart'. The possible ways to use it do not really appeal to Bob (as a web developer he likes his freedom of choice). However there is also a link to github (<a href="https://github.com/search?q=pdok">https://github.com/search?q=pdok</a>) where he finds some source code from another developer that uses PDOK with Leaflet. Exactly what he was looking for! Some more coding to do to update his app ...</p>
+<p class="p3"><br></p>
+<p class="p2">It works! With not too much effort the PDOK map is displayed. From the source code by the other developer Bob now knows that it is something called a 'brtachtergrondkaart' and there is something done with map coordinates to get from lat, long to RD? He writes it done for further study (the list is getting longer), for now he is just happy with the result!</p>
+<p class="p3"><br></p>
+<p class="p5"><img src="Images/Screen Shot Leaflet with PDOK.png" width="401" height="525" alt="Image"></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc14"></a>Adding Features</b></h2>
+<p class="p2">While panning and zooming the PDOK map is fun, Bob thinks about the useful features he can now add to help Victor. He can program the map to initially show the area around Valkenswaard, but a search box for a place would be nice and make the app more flexible. And then when the map is zoomed to a location of interest to the user it should display additional information, like the 'bestemmingsplannen' and e.g. things about cultural heritage so Victor can build his case.</p>
+<p class="p3"><br></p>
+<p class="p2">Bob decides to skip the place name search for now and focus on adding the useful data, so he has something to impress Victor with. And perhaps he can use it to find a sponsor or other developers to help with adding features to the app! He looks at his notes and remembers the Geonovum geo4web initiative, so he heads back to github to look it up.</p>
+<p class="p3"><br></p>
+<p class="p2">It takes some searching but he finds a few interesting links:</p>
+<ul class="ul1">
+  <li class="li2"><a href="http://www.ldproxy.net">http://www.ldproxy.net</a></li>
+  <li class="li2"><a href="https://swaggerhub.com/api/apiwise/landcover/1.0">https://swaggerhub.com/api/apiwise/landcover/1.0</a></li>
+  <li class="li2"><a href="http://146.185.182.204/map?lng=51.34&amp;lat=5.47"><span class="s4">http://146.185.182.204/map?lng=51.34&amp;lat=5.47</span></a></li>
+</ul>
+<p class="p3"><span class="s4"></span><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc15"></a>Using LDProxy</b></h2>
+<p class="p2">On the website <a href="http://www.ldproxy.net">www.ldproxy.net</a> Bob sees that they currently offer three data services:<span class="Apple-converted-space"> </span></p>
+<ul class="ul1">
+  <li class="li2">INSPIRE Adresses WFS</li>
+  <li class="li2">Basisregistratie Grootschalige Topografie (BGT), Valkenswaard</li>
+  <li class="li2">Agrarisch Areaal Nederland WFS</li>
+</ul>
+<p class="p3"><br></p>
+<p class="p2">After his experience with trying to work with WMS and Leaflet he is not really ready to try another of those W*S services. On the Leaflet website there is something about support for WFS-T (called an OGC WFS-T client layer for Leaflet, at: <a href="http://flexberry.github.io/Leaflet-WFST/">http://flexberry.github.io/Leaflet-WFST/</a>). Perhaps he can try that later although he is not so sure the data provided will be useful for Victor. But maybe the BGT is.</p>
+<p class="p3"><br></p>
+<p class="p2">Following the link for the LDProxy BGT service Bob gets a webpage with some information about the service and the data. It is not very clear what it all means and how he can use it in his Leaflet app. <span class="Apple-converted-space">  </span>'Wegdeel' and 'Waterdeel' probably are road and river segments. What 'Kunstwerkdeel' means is more mysterious to him. After some exploring Bob thinks that it looks like a kind of REST API, where he can use <a href="http://www.ldproxy.net/bgt/Kunstwerkdeel/">http://www.ldproxy.net/bgt/Kunstwerkdeel/</a> to get a list of items, and for example <a href="http://www.ldproxy.net/bgt/Kunstwerkdeel/_A2F312CA9F00E4B61E0532B0B5B0ADC22">http://www.ldproxy.net/bgt/Kunstwerkdeel/_A2F312CA9F00E4B61E0532B0B5B0ADC22</a> to get an individual item. And by adding a parameter to the URL the data will be returned in JSON format: <a href="http://www.ldproxy.net/bgt/Kunstwerkdeel/_A2F312CA9F00E4B61E0532B0B5B0ADC22/?f=json">http://www.ldproxy.net/bgt/Kunstwerkdeel/_A2F312CA9F00E4B61E0532B0B5B0ADC22/?f=json</a>.</p>
+<p class="p3"><br></p>
+<p class="p10"><span class="s4">{</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">  </span>"type" : "Feature",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">  </span>"id" : "_A2F312CA9F00E4B61E0532B0B5B0ADC22",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">  </span>"geometry" : {</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"type" : "LineString",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"coordinates" : [ [ 5.430309110117319, 51.34613899275969 ], [ 5.4303095099695184, 51.346136844306116 ], [ 5.430300107904979, 51.346136020835495 ], [ 5.430299708094898, 51.34613821423266 ], [ 5.430309110117319, 51.34613899275969 ] ]</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">  </span>},</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">  </span>"properties" : {</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"objectBeginTijd" : "2014-12-08",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"identificatie.namespace" : "NL.IMGeo",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"identificatie.lokaalID" : "G0858.33501c2f2dd9442081ca56be0541a40d",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"tijdstipRegistratie" : "2014-12-08T10:59:27",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"LV-publicatiedatum" : "2015-04-21T10:24:44",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"bronhouder" : "G0858",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"relatieveHoogteligging" : 0,</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"bgt-status" : "bestaand",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"plus-status" : "geenWaarde",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"bgt-type" : "niet-bgt",</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span>"plus-type" : "duiker"</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p10"><span class="s4">}</span></p>
+<p class="p11"><br></p>
+<p class="p2">He notes that this 'Kunstwerkdeel' is a 'duiker', and considers this must be jargon. Perhaps 'Pand' (<a href="http://www.ldproxy.net/bgt/Pand/">http://www.ldproxy.net/bgt/Pand/</a>) has more useful information for Victor. And since Leaflet supports the Geo-JSON format Bob thinks he should give it a try.</p>
+<p class="p3"><br></p>
+<p class="p2">Bob retrieves the data with the URL: <a href="http://www.ldproxy.net/bgt/Pand/?f=json">http://www.ldproxy.net/bgt/Pand/?f=json</a>, and adds it to the application (as a file called bgt_pand.json). On github he finds a library for Leaflet so that the file can be loaded (<a href="https://github.com/calvinmetcalf/leaflet-ajax">https://github.com/calvinmetcalf/leaflet-ajax</a>) and the features added to the map.</p>
+<p class="p3"><br></p>
+<p class="p5"><img src="Images/Screen Shot Leaflet with LDProxy BGT.png" width="397" height="525" alt="Image"></p>
+<p class="p3"><br></p>
+<p class="p2">Bob notices that there are only a small number of markers, and then figures out that the LDProxy service uses a paging mechanism (also when asking the full list of items). Unfortunately he can not (spatially) query the data or find out the total number of items or pages available. So it would take some additional coding to make it work. Bob decides to talk to Victor first to decide if spending more time on this would make sense.</p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc16"></a>Using Land Use Data</b></h2>
+<p class="p2">The next data service Bob takes a look at is <a href="https://swaggerhub.com/api/apiwise/landcover/1.0">https://swaggerhub.com/api/apiwise/landcover/1.0</a>. Although it has "land cover" in the URL the data provided by it has to do with spatial planning ("bestemmingsplannen"). There is a very straight forward REST API with a parameter to request data in pages and another for search queries.</p>
+<p class="p3"><br></p>
+<p class="p2">There are some practical issues though that make it less easy to use the API in the app with Leaflet. The paging is nice, but there seems to be no way to retrieve the total number of pages or features available from the API. And there is no way to do a spatial search, for example to get only the features within a certain area, or near to a location. Bob thinks he either has to retrieve all the data and build the processing logic in the app, or cache some information and then retrieve the features needed based on the IDs depending on the visible area of the map. This is more memory efficient but would require more calls to the data service (hence more network data usage).</p>
+<p class="p3"><br></p>
+<p class="p2">Another obstacle is that the data is returned as JSON, but not as GeoJSON. Bob downloaded a small piece of the data and tried to add it to Leaflet but nothing is displayed. The data seems similar enough to the GeoJSON that Bob retrieved from the LDProxy so a conversion might be possible. Perhaps somebody already has developed a converter and put it on github, for instance this one looks like a good start: <a href="https://github.com/respec/leaflet.wfs-t">https://github.com/respec/leaflet.wfs-t</a> (Bob starts to like github more and more).<span class="Apple-converted-space"> </span></p>
+<p class="p3"><br></p>
+<p class="p2">Another thing to talk to Victor about first before investing more time in it.</p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc17"></a>Using Cultural Heritage Data</b></h2>
+<p class="p2">Planned chapter.</p>
+<hr>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc18"></a>Chapter 6</b></h1>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b>Deliverable 2 - The Lessons Learned</b></h3>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; min-height: 15.0px"><br></h3>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc19"></a>Lesson 1</b></h2>
+<p class="p2">Lesson 1: Everyone in a platform or community has their own needs and capacities.</p>
+<p class="p3"><br></p>
+<p class="p2">Lesson 1A: Make sure the needle can be found in the haystack.</p>
+<p class="p3"><br></p>
+<p class="p2">Lesson 1B: Keep it simple.</p>
+<p class="p3"><br></p>
+<p class="p2">Lesson 1C: Think carefully about who is allowed to do what.</p>
+<p class="p3"><br></p>
+<p class="p2">Lesson 1D: Each speaks it own language and lives in his own world.</p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc20"></a>Lesson 2</b></h2>
+<p class="p2">Lesson 2: Make search engines feel comfortable to discover you.</p>
+<p class="p3"><br></p>
+<p class="p2">Lesson 2A: Show a search engine the direction with an XML sitemap.</p>
+<p class="p3"><br></p>
+<p class="p2">Lesson 2B: Foster to link everything with everything.</p>
+<p class="p3"><br></p>
+<p class="p2">Lesson 2C: Think of the future, use persistent URIs.</p>
+<p class="p3"><br></p>
+<p class="p2">Lesson 2D: Make use of the structure, include <a href="http://schema.org">Schema.org</a> markup.</p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc21"></a>Lesson 3</b></h2>
+<p class="p2">Lesson 3: Deal with the unknown set of developers and devices.</p>
+<p class="p3"><br></p>
+<p class="p2">Lesson 3A: Serve your data in many different flavours.</p>
+<p class="p3"><br></p>
+<p class="p2">Lesson 3B: Improve performance, reduce payload.</p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc22"></a>Lesson 4</b></h2>
+<p class="p2">Lesson 4: Don't copy data, use proxy.</p>
+<hr>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc23"></a>Chapter 7</b></h1>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b>Findings</b></h3>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; min-height: 15.0px"><br></h3>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc24"></a>Topography data (BRT)</b></h2>
+<p class="p2">Type: Base Topography (BRT)</p>
+<p class="p3"><br></p>
+<p class="p2">Source: <a href="http://www.pdok.nl">www.pdok.nl</a></p>
+<p class="p3"><br></p>
+<p class="p2">Tech: PDOK, WMS, WFS, TMS, etc.<span class="Apple-converted-space"> </span></p>
+<p class="p3"><br></p>
+<p class="p2">API: WMS, TMS.<span class="Apple-converted-space"> </span></p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc25"></a>Large Scale Topography (BGT)</b></h2>
+<p class="p2">Type: Large Scale Topography (BGT)</p>
+<p class="p3"><br></p>
+<p class="p2">Source: <a href="http://www.ldproxy.net">http://www.ldproxy.net</a></p>
+<p class="p3"><br></p>
+<p class="p2">Tech: WFS-service with LD Proxy on top of it. Enriched with semantics (IMGEO, terms, information model, documentation)</p>
+<p class="p3"><br></p>
+<p class="p2">API: ?</p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc26"></a>Land Use Data</b></h2>
+<p class="p2">Kind: Bestemmingsplannen (spatial planning)</p>
+<p class="p3"><br></p>
+<p class="p2">Tech: ?</p>
+<p class="p3"><br></p>
+<p class="p2">API: REST and JSON?</p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'"><b><a id="doc27"></a>Cultural Heritage Data</b></h2>
+<p class="p2">Type: Cultural Heritage</p>
+<p class="p3"><br></p>
+<p class="p2">Tech: ?</p>
+<p class="p3"><br></p>
+<p class="p2">API: ?</p>
+</div>
+</body>
+</html>
