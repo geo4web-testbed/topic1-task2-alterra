@@ -4,5 +4,5 @@ Modern ways of spatial data publication - Building a spatial application (Alterr
 ##### Work in progress ...
 
 - ./doc : background documentation
-- ./report : deliverable report as html
-- ./SPAViewer : deliverable web application
+- ./report : draft deliverable report as pdf (ignore the formatting)
+- ./SPAViewer : draft deliverable web application
