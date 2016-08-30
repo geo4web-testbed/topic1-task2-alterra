@@ -38,23 +38,86 @@ var map = new L.Map('map', {
 });
 
 // test RD coordinates
-map.on('click', function(e) {
-    if (window.console) {
-        var point = RD.projection.project(e.latlng);
-        console.log("RD X: " + point.x + ", Y: " + point.y);
-    }
-});
+//map.on('click', function(e) {
+//    if (window.console) {
+//        var point = RD.projection.project(e.latlng);
+//        console.log("RD X: " + point.x + ", Y: " + point.y);
+//    }
+//});
+
 
 // BGT GeoJSON
 
-var bgtPandStyle = {
-    "color": "#ff7800",
-    "weight": 10,
-    "opacity": 0.65
-};
+//var bgtPandStyle = {
+//    "color": "#ff7800",
+//    "weight": 10,
+//    "opacity": 0.65
+//};
 
-var pandenGeojsonLayer = new L.GeoJSON.AJAX("data/bgt_pand.json", { style: bgtPandStyle } );
-pandenGeojsonLayer.addTo(map);
+//var pandenGeojsonLayer = new L.GeoJSON.AJAX("data/bgt_pand.json", { style: bgtPandStyle } );
+//pandenGeojsonLayer.addTo(map);
+//
+//var plannenGeojsonLayer = new L.GeoJSON.AJAX("data/bestemmingsplannen.json");
+//plannenGeojsonLayer.addTo(map);
 
-var plannenGeojsonLayer = new L.GeoJSON.AJAX("data/bestemmingsplannen.json");
-plannenGeojsonLayer.addTo(map);
+
+// Triply GeoJSON
+
+// Graphs:
+// BGT                  : http://lodlaundromat.org/data/a93e8d03e221da79dba13102ccfafd23"
+// Monumenten           : http://lodlaundromat.org/data/c39e1092fd8387233e60222952f11a2a"
+// Gemeentegeschiedenis : http://lodlaundromat.org/data/b0814d9ef0067418d2b829679a865f1a"
+
+window.onload = function() {
+    function onMapClick(e) {
+        $.ajax({
+          "accepts": {"json": "application/vnd.geo+json"},
+          "data": {
+            "graph": "http://lodlaundromat.org/data/c39e1092fd8387233e60222952f11a2a",
+            "lng": e.latlng.lng,
+            "lat": e.latlng.lat,
+            "properties" : "yes",
+            "page_size" : 30
+          },
+          "dataType": "json",
+          "success": function(data) {
+            var layer = L.geoJson(data.features, {
+              "onEachFeature": function (feature, layer) {
+                // This part populates the popup content with the info from GeoJSON.
+                if (feature.properties) {
+                  if (feature.properties['type']) {
+                    layer.bindPopup('Type: ' + feature.properties['type']);
+                  } else if (feature.properties.popupContent) {
+                    layer.bindPopup(feature.properties.popupContent, {"maxWidth": 1000});
+                  } else if (feature.properties['@id']) {
+                    // No popup content.  Just show a ‘more info’ link.
+                    var link = 'http://geonovum.triply.cc/graph?subject=' + encodeURIComponent(feature.properties['@id']);
+                    layer.bindPopup('<a href="' + link + '" target="_self">Link to graph</a>');
+                  }
+                }
+                // Avoid event bubbling that executes another map click.
+                layer.on("click", function(levent) {
+                  L.DomEvent.stopPropagation(levent);
+                });
+              },
+              "style": function(feature) {
+                if (feature.properties.color) {
+                  return {
+                    color: feature.properties.color,
+                    fillColor: feature.properties.color
+                  };
+                }
+              }
+            }).addTo(map);
+
+            // Animate markers a bit to distinguish them when zoomed out.
+            layer.eachLayer(function(marker) {
+              L.setOptions(marker, {riseOnHover: true});
+            });
+            map.fitBounds(layer.getBounds().pad(0.5), {animate:true});
+          },
+          "url": "http://geonovum.triply.cc/geo"
+        });
+    }
+    map.on('click', onMapClick);
+  };
